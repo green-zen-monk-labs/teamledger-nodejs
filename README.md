@@ -67,7 +67,7 @@ src/
 - NestJS
 - TypeScript
 - PostgreSQL
-- Prisma
+- Prisma ORM
 - Docker & Docker Compose
 - JWT Authentication
 - class-validator & class-transformer
