@@ -19,9 +19,7 @@ function sumByCategory(transactions: Transaction[]): Record<string, number> {
     const results: Record<string, number> = {}
   
     transactions.forEach(transaction => {
-        if (!results[transaction.category]) {
-            results[transaction.category] = 0;
-        }
+        results[transaction.category] ??= 0;
         results[transaction.category] += transaction.amount.amount;
 
     });
