@@ -1,2 +1,15 @@
-node_modules/
+# IDE / OS
 .vscode/
+teamledger.code-workspace
+
+# deps
+node_modules/
+
+# build
+dist/
+build/
+
+# env
+.env
+.env.*
+!.env.example

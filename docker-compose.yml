@@ -2,11 +2,10 @@ version: "3.9"
 
 services:
   app:
-    build:
-      context: .
-      dockerfile: docker/Dockerfile.dev
+    image: node:20-alpine
+    working_dir: /app
     volumes:
       - .:/app
     ports:
       - "3000:3000"
-    command: sh -c "if [ ! -d node_modules ]; then npm install -D ts-node typescript @types/node; fi && npm run dev"
+    command: sh -c "if [ ! -d node_modules ]; then npm install; fi && npm run start:dev"
