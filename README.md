@@ -210,6 +210,7 @@ This project intentionally emphasizes:
 
 This is a personal learning and portfolio project.
 Suggestions, discussions, and refactoring ideas are always welcome.
+Please read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
 
 ---
 
