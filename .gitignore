@@ -1,6 +1,7 @@
 # IDE / OS
 .vscode/
 teamledger.code-workspace
+.codex
 
 # deps
 node_modules/
