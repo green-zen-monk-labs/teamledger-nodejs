@@ -2,9 +2,11 @@
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="120" alt="Nest Logo" /></a>
 </p>
 
+English | [Magyar](README.hu.md)
+
 # TeamLedger
 
-TeamLedger is a backend-focused application designed to explore modern backend architecture, team-based financial tracking, and enterprise-grade development practices using **NestJS**.
+TeamLedger is a backend-focused application designed to explore modern backend development, team-based financial tracking, and solid engineering practices using **NestJS**.
 
 The project serves both as a **learning playground** and a **portfolio-ready reference implementation** for scalable backend systems.
 
@@ -13,7 +15,7 @@ The project serves both as a **learning playground** and a **portfolio-ready ref
 ## 🚀 Project Goals
 
 - Practice **NestJS** in a real-world–like domain
-- Apply **clean architecture** and **DDD-inspired** patterns
+- Build a maintainable and modular backend codebase
 - Work with **PostgreSQL**, **ORMs**, and migrations
 - Implement **authentication, authorization, and role management**
 - Explore **team-based financial data modeling**
@@ -61,9 +63,9 @@ src/
 ### Architectural Principles
 
 - Separation of concerns
-- Dependency inversion
+- Clear module responsibilities
 - DTO-driven validation
-- Explicit domain boundaries
+- Pragmatic layering
 - Testability first
 
 ---
@@ -198,7 +200,7 @@ JWT_EXPIRES_IN=3600
 
 This project intentionally emphasizes:
 
-- Clean NestJS module design
+- Structured NestJS module design
 - Backend scalability thinking
 - Database modeling trade-offs
 - Security-conscious API design
