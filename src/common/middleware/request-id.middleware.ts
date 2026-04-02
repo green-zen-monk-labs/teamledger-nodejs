@@ -7,7 +7,7 @@ export class RequestIdMiddleware implements NestMiddleware {
   use(req: Request, _res: Response, next: NextFunction) {
     const incomingId = req.headers['x-request-id'];
 
-    req['requestId'] = typeof incomingId === 'string' ? incomingId : randomUUID();
+    req.requestId = typeof incomingId === 'string' ? incomingId : randomUUID();
 
     next();
   }

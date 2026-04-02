@@ -2,6 +2,7 @@
 .vscode/
 teamledger.code-workspace
 .codex
+.codex-docker-target.toml
 
 # deps
 node_modules/
